@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1> <h2>Project Management, IT Consulting a služby v oblasti vývoje SW</h2>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Pokračovat</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Poptávka po službách</h2>
+                </header>
+                <p>Veškeré služby jsou poskytovány v rámci platného Živnostenského oprávnění.
+                   Veškeré ceny jsou smluvního charakteru a indikativní nabidka není považována
+                   za závaznou. Každý jednotlivý případ je detailně analyzován a předběžná nabídka
+                   je zaslána písemnou formou během 24h od poptávky.
+
+                   <br /><br />V případě zájmu o nabízené služby prosím využijte jeden z uvedených kontatních kanalů
+                   (preferovaně e-mail).
+
+                   <br />K zastižení jsem také na službě WhatsApp.</p>
+                   <ul class="actions">
+                       <li><a href="landing.html" class="button next">Poptávka</a></li>
+                   </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

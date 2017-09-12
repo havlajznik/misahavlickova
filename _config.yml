@@ -1,0 +1,38 @@
+# site settings
+title: Míša Havlíčková - Wellness instruktor
+subtitle: Balóny, aerobik, osobní trenér, děti, lifestyle
+email: mail@mail.com
+description: Profesionální akreditovaná fitness a wellness intruktorka s bohatou praxí
+baseurl: ""
+url: "http://misa.4apes.cz"
+author: Petr Havlíček
+street_address: Lipovická 536/4
+city: Praha 4
+state:
+zip_code: 14200
+country: Česká republika
+phone: +420 777 586 148
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+youtube_url: http://www.youtube.com
+vimeo_url: http://www.vimeo.com
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
